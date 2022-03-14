@@ -16,15 +16,9 @@ let package = Package(
       targets: ["CustomDump"]
     )
   ],
-  dependencies: [
-    .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "0.2.0")
-  ],
   targets: [
     .target(
-      name: "CustomDump",
-      dependencies: [
-        .product(name: "XCTestDynamicOverlay", package: "xctest-dynamic-overlay")
-      ]
+      name: "CustomDump"
     ),
     .testTarget(
       name: "CustomDumpTests",

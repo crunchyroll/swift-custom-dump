@@ -1,5 +1,3 @@
-import XCTestDynamicOverlay
-
 /// Asserts that two values have no difference.
 ///
 /// Similar to `XCTAssertEqual`, but that function uses either `TextOutputStreamable`,

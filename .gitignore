@@ -5,4 +5,5 @@
 /*.xcodeproj
 xcuserdata/
 DerivedData/
+build/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
