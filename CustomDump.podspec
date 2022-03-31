@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                   = 'CustomDump'
-  s.version                = '0.3.0'
+  s.version                = '0.4.0'
   s.summary                = 'A collection of tools for debugging, diffing, and testing your application\'s data structures.'
   s.homepage               = 'https://github.com/crunchyroll/swift-custom-dump'
   s.license                = { :type => 'MIT', :file => 'LICENSE' }
